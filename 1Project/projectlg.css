@@ -1,0 +1,185 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fore {
+ display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    background-color: rgb(58, 136, 184);
+}
+
+.head {
+    padding-top: 10px;
+    width: 100%;
+    color: white;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.head a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hm {
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    padding-left: 800px;
+    position: relative;
+}
+
+.hm a {
+    font-size: 1.2em;
+    padding-left: 30px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.hm a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.body {
+    padding-top: 60px;
+    height: 100vh;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(5, 8, 8, 0.582), rgba(7, 10, 9, 0.084)), url(l.jpeg);
+}
+
+.city {
+    margin-top: 100px;
+    margin-top: 45px;
+    margin-left: 600px;
+    text-shadow: 0px;
+}
+
+select {
+    width: 280px;
+    height: 30px;
+
+}
+
+select:focus {
+    min-width: 280px;
+    width: auto;
+}
+
+
+.hi{
+    background-color: black;
+    color: #fff;
+}
+
+.hlw {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.carousel-control-prev{
+    color: black;
+}
+.foot {
+    padding-top: 0px;
+    padding: 28px;
+    margin-top: 0px;
+    color: #fff;
+    background-color: rgb(58, 136, 184);
+}
+
+.z {
+    display: flex;
+}
+
+.no {
+    display: flex;
+}
+
+.inf {
+    margin-left: 815px;
+
+}
+
+.flx {
+    text-align: justify;
+}
+
+.aa {
+    margin: 0px;
+    display: block;
+    margin-block-start: 1em;
+}
+
+.bb {
+    margin: 0px;
+    display: block;
+}
+
+.cc {
+    margin: 0px;
+    display: block;
+    margin-block-start: 1em;
+}
+
+.dd {
+    margin: 0px;
+    display: block;
+}
+
+.cnct {
+    padding-top: 8px;
+    margin-left: 350px;
+    position: relative;
+}
+
+.cnct a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cnct a:hover {
+    color: orange;
+}
+
+.cnct a:hover::after {
+    text-decoration: underline;
+    transform: translate(50%, 50%);
+    color: #fff;
+    width: 100%;
+    height: 2px;
+    animation: 3s;
+}
+.submit{
+    padding-top: 20px;
+   padding-left: 120px;
+   text-shadow: none;
+}
+.zn{
+    background-color: black;
+    color: #fff;
+    padding-bottom: 0px;
+    border-left: 0px;
+
+}
+.main{
+    padding-top: 50px;
+    margin-top: 0px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.how{
+    margin-left: 270px;
+    text-align: center;
+}
+.it{
+    text-align: center;
+    margin-left: 160px;
+}
+.works{
+    text-align: center;
+    margin-left: 160px;
+}
